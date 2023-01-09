@@ -1,0 +1,8 @@
+tsc -w file.ts 
+tsc
+tsc -w
+“files”:[]
+“nclude”:[]
+“exclude”:[,”node_modules”]
+“outDir”:”./dist”
+“target”:”es6”
