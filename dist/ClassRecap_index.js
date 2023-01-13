@@ -53,7 +53,7 @@ class Player {
 
 class AdminPlayer extends Player {
   constructor(first, last, power) {
-    super(first.last);
+    super(first, last);
     this.power = power;
   }
 }
