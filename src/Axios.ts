@@ -1,5 +1,5 @@
 import axios from "axios";
-import _ from "lodash"; //타입 선언 패키지를 따로 설치해줘야함. npm만 기본적으로 제공됨.
+import _ from "lodash"; //타입 선언 패키지를 따로 설치해줘야함. axios는 기본적으로 제공.
 interface User {
   id: number;
   name: string;
