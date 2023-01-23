@@ -1,10 +1,5 @@
-"use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-const axios_1 = __importDefault(require("axios"));
-axios_1.default
+import axios from "axios";
+axios
     .get("https://jsonplaceholder.typicode.com/users/1")
     .then((res) => {
     console.log("WOO!!!");
@@ -13,7 +8,7 @@ axios_1.default
     .catch((e) => {
     console.log("ERROR!", e);
 });
-axios_1.default
+axios
     .get("https://jsonplaceholder.typicode.com/users")
     .then((res) => {
     console.log("WOO!!!");

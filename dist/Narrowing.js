@@ -89,7 +89,7 @@ function getFarmAnimalSound(animal) {
             return "Cockadoodledoo!";
         case "sheep":
             return "Baaa!";
-        default: //여기까지 도달하면 안된다는 것을 알려줌
+        default:
             // We should never make it here, if we handled all cases correctly
             //   const shouldNeverGetHere: never = animal;
             //   return shouldNeverGetHere
