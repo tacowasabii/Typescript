@@ -12,7 +12,7 @@
     "webpack-dev-server": "^4.11.1"
   },
   "scripts": {
-    "build": "webpack",
-    "serve": "webpack serve"
+    "build": "webpack --config webpack.prod.js",
+    "serve": "webpack-dev-server --config webpack.dev.js"
   }
 }
